@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reported Speech — English 80</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="root"></div>
+
+<script>
+window.LESSON = {
+  id:"reported",
+  title:"Reported Speech",
+  subtitle:"Адамның айтқан сөзін ағылшын тілінде дұрыс жеткізу.",
+  intro:"Direct Speech пен Reported Speech айырмашылығын түсінеміз. Шақтарды өзгертуді, жанама сұрақтар мен бұйрықтарды үйреніп, мәтін оқимыз.",
+
+  lessons:[
+    {
+      title:"1. Reported Speech дегеніміз не?",
+      text:`Reported Speech — басқа адамның сөзін жанама түрде жеткізу.
+
+Direct Speech — адамның айтқан сөзін тікелей, тырнақша ішінде беру.
+
+Reported Speech — сол сөздің мазмұнын өз сөзімізбен басқа адамға жеткізу.
+
+Мысалы:
+Direct: Aida said, "I am happy."
+Reported: Aida said that she was happy.
+
+Екі сөйлемнің негізгі мағынасы бірдей. Бірақ екінші сөйлемде есімдік пен шақ өзгерген.
+
+Бұл құрылым жаңалықтарды жеткізуге, әңгіме айтуға және басқа адамның пікірін баяндауға қажет.`,
+      examples:[
+        "He said, 'I am tired.' → He said that he was tired.",
+        "She said, 'I like music.' → She said that she liked music."
+      ],
+      note:"DIRECT SPEECH — нақты айтылған сөз.\nREPORTED SPEECH — өзгенің сөзін жанама жеткізу.",
+      ask:"Direct Speech және Reported Speech арқылы бір оқиғаны екі жолмен жеткіз."
+    },
+    {
+      title:"2. Backshift — шақтарды өзгерту",
+      text:`Reported Speech кезінде өткен шақтағы reporting verb қолданылса, көптеген жағдайларда шақ бір қадам артқа ауысады.
+
+Бұл құбылыс backshift деп аталады.
+
+Present Simple → Past Simple.
+Present Continuous → Past Continuous.
+Present Perfect → Past Perfect.
+Past Simple → Past Perfect.
+Will → Would.
+Can → Could.
+
+Мысалы: "I am studying."
+He said that he was studying.
+
+Бірақ егер ақпарат әлі де дұрыс болса, бастапқы шақ кейде сақталады.
+
+Шақты автоматты түрде өзгертпей, сөйлемнің мағынасын тексеру қажет.`,
+      examples:[
+        "'I work.' → He said that he worked.",
+        "'I am reading.' → She said she was reading.",
+        "'I have finished.' → He said he had finished."
+      ],
+      note:"BACKSHIFT\nPresent Simple → Past Simple.\nPresent Continuous → Past Continuous.\nPresent Perfect → Past Perfect.\nPast Simple → Past Perfect.\nWill → Would.",
+      ask:"He said, 'I am learning Chinese' сөйлемін түрлендір."
+    },
+    {
+      title:"3. Pronouns және Time Words",
+      text:`Сөзді басқа адам жеткізгенде есімдіктер өзгеруі мүмкін.
+
+I → he немесе she.
+My → his немесе her.
+We → they.
+
+Уақытқа қатысты сөздер де өзгеруі мүмкін:
+now → then.
+today → that day.
+yesterday → the day before.
+tomorrow → the next day.
+here → there.
+
+Мысалы:
+"I will come tomorrow."
+He said that he would come the next day.
+
+Бұл өзгерістер сөйлем айтылған уақыт пен орынға байланысты. Егер жағдай өзгермесе, кейбір сөздерді сақтауға болады.`,
+      examples:[
+        "'I lost my phone yesterday.' → He said he had lost his phone the day before.",
+        "'I am busy today.' → She said she was busy that day."
+      ],
+      note:"TIME WORDS\nNow → then.\nToday → that day.\nYesterday → the day before.\nTomorrow → the next day.\nHere → there.",
+      ask:"I және my есімдіктері неге кейде he және his болып өзгереді?"
+    },
+    {
+      title:"4. Say және Tell",
+      text:`Say және tell етістіктері біреудің сөзін жеткізу үшін қолданылады.
+
+Алайда олардың грамматикалық құрылымы бірдей емес.
+
+Say + that-clause.
+Tell + object + that-clause.
+
+He said that he was tired.
+He told me that he was tired.
+
+Tell етістігінен кейін көбіне тыңдаушы көрсетіледі.
+
+Сондықтан He told that he was tired деп айту қате.
+
+Say етістігімен тыңдаушыны көрсету үшін said to me түрі қолданылады.`,
+      examples:[
+        "She said that she was happy.",
+        "She told us that she was happy.",
+        "He said to me that he needed help."
+      ],
+      note:"SAY + THAT-CLAUSE.\nTELL + OBJECT + THAT-CLAUSE.\nHe said that he was busy.\nHe told me that he was busy.",
+      ask:"She told that she was busy сөйлемін түзет."
+    },
+    {
+      title:"5. Reported Commands",
+      text:`Reported Commands — бұйрықты немесе өтінішті жанама түрде жеткізу.
+
+Оң бұйрық:
+Told/asked + object + to + V1.
+
+Теріс бұйрық:
+Told/asked + object + not to + V1.
+
+Мысалы:
+"Open the window."
+The teacher told me to open the window.
+
+"Don't talk."
+The teacher told us not to talk.
+
+Please сөзі бар өтініштерде asked қолдануға болады.
+
+Бұл құрылымдарда әдеттегі хабарлы сөйлемнің шақтарын ауыстыру ережесінің орнына to-infinitive қолданылады.`,
+      examples:[
+        "'Sit down.' → He told me to sit down.",
+        "'Please help me.' → She asked me to help her.",
+        "'Don't be late.' → Dad told me not to be late."
+      ],
+      note:"REPORTED COMMAND\nTold/asked + object + to + V1.\nТеріс: not to + V1.",
+      ask:"The teacher told us, 'Don't use your phones' сөйлемін түрлендір."
+    },
+    {
+      title:"6. Yes / No Questions",
+      text:`Жауабы yes немесе no болатын сұрақтар жанама түрде if немесе whether көмегімен беріледі.
+
+Формула:
+Asked + object + if/whether + subject + verb.
+
+Мысалы:
+"Are you ready?"
+He asked me if I was ready.
+
+"Do you like music?"
+She asked me if I liked music.
+
+Жанама сұрақта хабарлы сөйлемнің сөз тәртібі қолданылады.
+
+Сондықтан He asked if was I ready деген сөйлем қате.
+
+Дұрыс нұсқасы: He asked if I was ready.`,
+      examples:[
+        "'Are you busy?' → He asked if I was busy.",
+        "'Did you finish?' → She asked whether I had finished."
+      ],
+      note:"YES/NO QUESTION\nAsked + if/whether + subject + verb.\nHe asked if I was ready.",
+      ask:"'Do you study English?' сұрағын жанама сөзге айналдыр."
+    },
+    {
+      title:"7. WH-Questions",
+      text:`WH-Questions — where, what, when, why, who, how сияқты сұрақ сөздерімен басталады.
+
+Оларды Reported Speech түріне айналдырғанда сұрақ сөзі сақталады.
+
+Формула:
+Asked + question word + subject + verb.
+
+Мысалы:
+"Where do you live?"
+She asked where I lived.
+
+Ең маңыздысы — жанама сұрақта бастауыш пен баяндауыштың орны кәдімгі хабарлы сөйлемдегідей болады.
+
+Did, do, does көмекші етістіктері көп жағдайда түсіп қалады.
+
+Жанама сұрақ хабарлы сөйлемнің бір бөлігі болса, соңына нүкте қойылады.`,
+      examples:[
+        "'Where are you going?' → He asked where I was going.",
+        "'Why are you late?' → She asked why I was late."
+      ],
+      note:"WH-QUESTION\nAsked + question word + subject + verb.\nWhere do you live? → He asked where I lived.",
+      ask:"He asked where did I live сөйлеміндегі қатені тап."
+    },
+    {
+      title:"8. Жиі кездесетін қателер",
+      text:`Reported Speech кезінде үш нәрсені тексеру керек.
+
+Біріншісі — шақтың өзгеруі қажет пе?
+Екіншісі — есімдіктер мен уақыт сөздері өзгеруі қажет пе?
+Үшіншісі — сөйлем хабарлы ма, сұраулы ма, әлде бұйрықты ма?
+
+Хабарлы сөйлем:
+He said that he was tired.
+
+Сұрақ:
+He asked whether I was tired.
+
+Бұйрық:
+He told me not to be late.
+
+Әр құрылымның өз ережесі бар. Мағына мен грамматикалық құрылым сәйкес болуы қажет.`,
+      examples:[
+        "Correct: He told me that he was ready.",
+        "Correct: She asked where I lived.",
+        "Correct: The teacher told us not to talk."
+      ],
+      note:"REPORTED SPEECH ТЕКСЕР:\n1. Сөйлем түрі.\n2. Шақ.\n3. Есімдік.\n4. Уақыт пен орын сөздері.",
+      ask:"Бір хабарлы сөйлемді, бір сұрақты және бір бұйрықты түрлендір."
+    }
+  ],
+
+  video:{
+    id:"L-wTVCByxzk",
+    title:"BBC Learning English — Reported Speech",
+    task:"Екі сөйлемді Direct Speech-тен Reported Speech-ке ауыстыр."
+  },
+
+  summary:[
+    "Reported Speech — өзгенің сөзін жанама жеткізу.",
+    "Direct Speech — тікелей айтылған сөз.",
+    "Backshift — шақты өткенге ауыстыру.",
+    "Present Simple → Past Simple.",
+    "Present Continuous → Past Continuous.",
+    "Present Perfect → Past Perfect.",
+    "Past Simple → Past Perfect.",
+    "Will → would; can → could.",
+    "Say + that-clause.",
+    "Tell + object + that-clause.",
+    "Yes/No Questions: asked + if/whether.",
+    "WH-Questions: asked + question word + subject + verb.",
+    "Commands: told/asked + object + (not) to + V1."
+  ],
+
+  noteTasks:[
+    "Present Simple сөйлемін Reported Speech-ке айналдыр.",
+    "Say және tell айырмашылығына мысал жаз.",
+    "Бір сұраулы және бір бұйрықты сөйлемді түрлендір."
+  ],
+
+  reading:{
+    title:"The College Interview",
+    text:`The College Interview
+
+On Tuesday, Ms Zhanar gave her students a journalism task. She asked everyone to interview a classmate and report the answers.
+
+Madina said that she was learning graphic design and that she wanted to work in a printing studio. She also said that she had visited a museum the previous weekend.
+
+Timur told Madina that he could edit videos, but he could not draw very well.
+
+When Madina asked whether he liked photography, Timur answered that he did.
+
+The teacher reminded everyone not to copy answers from the internet. She asked the students to write at least six reported sentences in their notebooks.
+
+Some students wanted to record audio, but Ms Zhanar said that recording was optional.
+
+At the end of the lesson, Timur asked where the homework should be uploaded.
+
+The teacher explained that the students should bring their notebooks to the next lesson instead of uploading files.
+
+Madina finished her interview first, but she had not checked all the pronouns in her sentences. Her partner helped her correct them.
+
+The teacher was pleased because the students had practised both speaking and writing.`,
+    teams:[
+      [
+        "The lesson took place on Tuesday.",
+        "The teacher asked students to paint posters.",
+        "Madina was learning graphic design.",
+        "Madina had visited a museum.",
+        "Timur could draw very well.",
+        "Students had to write at least six reported sentences.",
+        "Audio recording was compulsory.",
+        "Students had to upload their homework online.",
+        "Madina finished her interview first.",
+        "Madina corrected all her pronouns without help."
+      ],
+      [
+        "The teacher asked students to interview their teacher.",
+        "Timur could edit videos.",
+        "Madina asked whether Timur liked photography.",
+        "Timur said that he disliked photography.",
+        "Students were allowed to copy from the internet.",
+        "Some students wanted to record audio.",
+        "Students had to bring their notebooks next lesson.",
+        "Timur asked where the homework should be uploaded.",
+        "Madina received help with her pronouns.",
+        "The teacher requested exactly two reported sentences."
+      ]
+    ],
+    answers:[
+      [true,false,true,true,false,true,false,false,true,false],
+      [false,true,true,false,false,true,true,true,true,false]
+    ]
+  },
+
+  written:[
+    {
+      title:"2. Direct Speech → Reported Speech",
+      instruction:"Әр сөйлемді толық жанама сөзге өзгертіп жаз.",
+      teams:[
+        [
+          "Aida said, 'I like English.'",
+          "Ali said, 'I am reading a book.'",
+          "Dana said, 'I have finished my homework.'",
+          "He said, 'I will buy a laptop.'",
+          "She said, 'I can speak Chinese.'",
+          "He said, 'I visited Astana yesterday.'"
+        ],
+        [
+          "Asel said, 'I love reading.'",
+          "Timur said, 'I am studying history.'",
+          "Mira said, 'I have lost my notebook.'",
+          "He said, 'I will travel tomorrow.'",
+          "She said, 'I can play the piano.'",
+          "My brother said, 'I bought a phone yesterday.'"
+        ]
+      ]
+    },
+    {
+      title:"3. Сұрақтар мен бұйрықтар",
+      instruction:"Yes/No, WH-Questions және Commands құрылымдарын қолдан.",
+      teams:[
+        [
+          "She asked me, 'Do you like music?'",
+          "He asked, 'Where do you study?'",
+          "The teacher asked, 'Have you finished?'",
+          "Mother told me, 'Don't be late.'",
+          "The teacher told me, 'Open your book.'",
+          "Correct: He asked where did I live."
+        ],
+        [
+          "He asked me, 'Do you speak English?'",
+          "She asked, 'Where do you live?'",
+          "Dad asked, 'Have you done your homework?'",
+          "Teacher told us, 'Don't talk.'",
+          "She asked me, 'Please help me.'",
+          "Correct: She asked what was I doing."
+        ]
+      ]
+    },
+    {
+      title:"4. Шығармашылық жұмыс",
+      instruction:"Ағылшынша жаз. Соңғы мәтін кемінде сегіз сөйлем болсын.",
+      teams:[
+        [
+          "Досыңның үш сөзін Direct Speech түрінде жаз.",
+          "Үшеуін Reported Speech түріне айналдыр.",
+          "Бір Reported Command құрастыр.",
+          "Бір Yes/No Reported Question жаз.",
+          "Екі WH-Reported Question жаз.",
+          "My Friend Said тақырыбында сегіз сөйлемдік мәтін жаз."
+        ],
+        [
+          "Отбасыңның үш сөзін Direct Speech түрінде жаз.",
+          "Үшеуін Reported Speech түріне айналдыр.",
+          "Бір Reported Request құрастыр.",
+          "Бір Yes/No Reported Question жаз.",
+          "Екі WH-Reported Question жаз.",
+          "My Teacher Told Me тақырыбында сегіз сөйлемдік мәтін жаз."
+        ]
+      ]
+    }
+  ],
+
+  oral:[
+    {q:"Report: She said, 'I am happy.'",
+     a:"She said that she was happy."},
+    {q:"Report: He said, 'I like music.'",
+     a:"He said that he liked music."},
+    {q:"Report: She said, 'I have finished my work.'",
+     a:"She said that she had finished her work."},
+    {q:"Report: He said, 'I will call tomorrow.'",
+     a:"He said that he would call the next day."},
+    {q:"Report: She asked me, 'Where do you live?'",
+     a:"She asked me where I lived."},
+    {q:"Report: He asked me, 'Are you ready?'",
+     a:"He asked me if I was ready."},
+    {q:"Report: The teacher told us, 'Don't talk.'",
+     a:"The teacher told us not to talk."},
+    {q:"Report: Dad said to me, 'Close the door.'",
+     a:"Dad told me to close the door."},
+    {q:"Correct: He asked where did I live.",
+     a:"He asked where I lived."},
+    {q:"Explain say and tell.",
+     a:"He said that he was tired. / He told me that he was tired."},
+    {q:"Report: He said, 'I bought a phone yesterday.'",
+     a:"He said that he had bought a phone the day before."},
+    {q:"Report: She said, 'I can help you.'",
+     a:"She said that she could help me."}
+  ]
+};
+</script>
+<script src="script.js" defer></script>
+</body>
+</html>
